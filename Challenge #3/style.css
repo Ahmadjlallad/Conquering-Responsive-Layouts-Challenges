@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  color: white;
+  font-size: 1.3rem;
+}
+header {
+  padding: 5rem 4rem;
+  background-color: #23424a;
+  margin: 0 auto;
+}
+header h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.inner-container {
+  width: 80%;
+  max-width: 40%;
+}
+header a {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 1.32rem;
+  background-color: #38cfd9;
+  color: rgba(0, 0, 0, 0.877);
+  text-transform: capitalize;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+.inner-container:hover,
+.inner-container:focus {
+  text-decoration: underline #38cfd9;
+}
